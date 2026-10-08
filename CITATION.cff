@@ -4,6 +4,8 @@ title: "Explainable machine learning for predicting elevated hs-CRP in Indonesia
 version: 1.1.0
 date-released: 2026-10-08
 license: MIT
+doi: 10.5281/zenodo.23239973
+repository-code: "https://github.com/14220007/hsCRP-IFLS5-ML"
 authors:
   - family-names: Rumintarsih
     given-names: Ade

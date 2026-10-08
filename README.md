@@ -1,5 +1,7 @@
 # Explainable Machine Learning for Elevated hs-CRP in Indonesian Adults (IFLS-5)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23239973.svg)](https://doi.org/10.5281/zenodo.23239973)
+
 Code for the study *"Explainable machine learning for predicting elevated high-sensitivity C-reactive protein in Indonesian adults: Evidence from the Indonesia Family Life Survey"*.
 
 The study predicts elevated hs-CRP (≥3 mg/L) in 5,980 adults from IFLS-5 (2014–15). It compares logistic regression, random forest, XGBoost, LightGBM, two neural networks (a scikit-learn multilayer perceptron and a PyTorch deep neural network), a soft-voting ensemble, and two parsimonious logistic models (BMI only; BMI, sex, age, self-rated health and residence). Models are explained with SHAP.
@@ -44,7 +46,7 @@ Software used for the reported results: Python 3, scikit-learn 1.9.1, XGBoost 2.
 
 ## Citation
 
-See `CITATION.cff`. Please also cite the IFLS-5 data: Strauss, J., Witoelar, F., & Sikoki, B. (2016). *The fifth wave of the Indonesia Family Life Survey: Overview and field report* (WR-1143/1-NIA/NICHD). RAND.
+See `CITATION.cff` or cite the archived code: https://doi.org/10.5281/zenodo.23239973. Please also cite the IFLS-5 data: Strauss, J., Witoelar, F., & Sikoki, B. (2016). *The fifth wave of the Indonesia Family Life Survey: Overview and field report* (WR-1143/1-NIA/NICHD). RAND.
 
 ## License
 
