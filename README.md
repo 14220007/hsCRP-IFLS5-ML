@@ -28,6 +28,7 @@ Then run the notebooks in this order (Run All in each; edit the `ROOT` path in t
 1. `notebooks/model_crp_ifls5.ipynb`
 2. `notebooks/analisis_tambahan.ipynb`
 3. `notebooks/analisis_model_sederhana.ipynb`
+4. `notebooks/rumus_model_lima_butir.ipynb` (scoring formula of the five-item screening module; runs in 1–2 minutes)
 
 ## Repository structure
 
@@ -39,6 +40,8 @@ Then run the notebooks in this order (Run All in each; edit the `ROOT` path in t
 | `notebooks/model_crp_ifls5.ipynb` | Descriptive statistics, logistic regression, tuning with 5-fold CV, test-set evaluation with bootstrap CIs, sensitivity at fixed specificity, SHAP, sex-stratified and sensitivity analyses |
 | `notebooks/analisis_tambahan.ipynb` | Repeated cross-validation (individual and household-grouped folds), cluster-robust logistic regression, recalibration, further sensitivity analyses |
 | `notebooks/analisis_model_sederhana.ipynb` | BMI-only and five-item logistic models compared with the ensemble and XGBoost |
+| `notebooks/rumus_model_lima_butir.ipynb` | Five-item screening module: coefficients on the original scale, Platt recalibration, referral threshold, test-set check and spreadsheet formulas (`results/rumus_model_lima_butir.xlsx`) |
+| `results/Online_Resource_2_Screening_calculator.xlsx` | Spreadsheet calculator of the five-item screening module with its model card |
 | `results/` | Aggregated result tables (`.xlsx`) and figures (`fig1`, `fig2`, `fig3`, `figS1`) |
 | `Supplementary_material.docx` | Supplementary Tables S1–S5 and Figs. S1–S2 |
 
